@@ -1,19 +1,16 @@
 def month_to_season(month):
     if month in [12, 1, 2]:
-        return "winter"
+        return "Зима"
     elif month in [3, 4, 5]:
-        return "spring"
+        return "Весна"
     elif month in [6, 7, 8]:
-        return "summer"
+        return "Лето"
     elif month in [9, 10, 11]:
-        return "autumn"
+        return "Осень"
     else:
-        return "invalid month"
+        return "Неверный месяц"
 
 
-month_nomber = 5
-season = month_to_season(month_nomber)
+month_number = 2
+season = month_to_season(month_number)
 print(season)
-    
-
-    
