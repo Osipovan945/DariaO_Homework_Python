@@ -9,7 +9,7 @@ def is_year_leap(year):
         return True
 
 
-year = 1900
+year = 2004
 
 
 result = is_year_leap(year)
