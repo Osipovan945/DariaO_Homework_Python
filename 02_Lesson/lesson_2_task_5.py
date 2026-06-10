@@ -11,6 +11,6 @@ def month_to_season(month):
         return "Неверный месяц"
 
 
-month_number = 3
+month_number = 2
 season = month_to_season(month_number)
 print(season)
