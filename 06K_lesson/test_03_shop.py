@@ -43,4 +43,3 @@ def test_shop_purchase():
 
     finally:
         driver.quit()
-

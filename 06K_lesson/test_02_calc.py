@@ -29,4 +29,3 @@ def test_calculator_slow_operation():
 
     finally:
         driver.quit()
-
